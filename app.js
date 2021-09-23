@@ -9,7 +9,7 @@ const gift2 = document.querySelector("#gift2");
 const imgLucky = document.querySelector("#img-lucky");
 const imgUnlucky = document.querySelector("#img-unlucky");
 
-// alert("Any data you share on this website is not stored.")
+alert("Any data you share on this website is not stored.")
 
 function showMsg(msg){
     resultMessage.innerText = msg;

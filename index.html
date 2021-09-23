@@ -4,17 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    </style>
     <title>Lucky Birthday</title>
 </head>
 <body>
-    <div id="container">
+    <div class="container">
         <h1>Is Your Birthday Lucky?</h1>
+        <img class="gift-imgs" id="gift1" src="images/gift.svg">
+        <img class="gift-imgs" id="gift2" src="images/gift2.svg">
         <label>Enter the Date of Your Birth</label>
         <input id="birthdate" type="date"></input>
         <label>Enter Your Lucky Number</label>
         <input id="lucky-no" type="number"></input>
-        <button id="check-btn">Check</button>
+        <button id="check-btn"><b>Check</b></button>
         <p id="result-msg"></p>
+        <img id="img-lucky" src="images/lucky.svg">
+        <img id="img-unlucky" src="images/unlucky.svg">
+
+        <div class="footer">
+            <h3 id="footer-heading">Connect to me</h3>
+            <a id="footer-name" href="https://nisarg-pawade.netlify.app/">Nisarg Pawade</a>
+            <ul>
+                <li>
+                    <a class="social-link" href="https://github.com/nisargpawade"><img class="social" src="images/social/github.svg" role="img" alt="github"></a>
+                </li>
+                <li>
+                    <a class="social-link" href="https://www.linkedin.com/in/nisarg-pawade-155619197/"><img class="social" src="images/social/linkedin.svg" role="img" alt="linkedin"></a>
+                </li>
+                <li>
+                    <a class="social-link" href="https://twitter.com/NisargPawade"><img class="social" src="images/social/twitter.svg" role="img" alt="twitter"></a>
+                </li>
+            </ul>
+        </div>
     </div>
     <script src="./app.js"></script>
 </body>

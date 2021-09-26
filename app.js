@@ -22,7 +22,7 @@ function hideMsg(){
 
 function calculateSum(birthDate){
     const birthNo = birthDate.value.replaceAll('-', '');
-    var sum = 0;
+    let sum = 0;
     for (let i=0; i<birthNo.length; i++) {
         sum = sum + Number(birthNo.charAt(i))
     };

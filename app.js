@@ -61,7 +61,7 @@ function checkLucky(birthDate, luckyNo) {
 
 checkBtn.addEventListener("click", function clickHandler() {
     hideMsg()
-    if (luckyNo.value.length == 0 || birthDate.value.length == 0) {
+    if (luckyNo.value.length === 0 || birthDate.value.length === 0) {
         showMsg("Make sure the values you've entered are valid")
     }
     else (checkLucky(birthDate, luckyNo))
